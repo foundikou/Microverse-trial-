@@ -7,6 +7,7 @@ html, body {
     font-size: 62.5%;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEEEEE;
 }
 #main{
     padding: 2rem;
@@ -19,6 +20,41 @@ html, body {
     font-size: 6rem;
     font-weight: bold;
 }
+.sub-title {
+    display: block;
+    font-size: 1.6rem;
+    color: #696969;
+}
 #image {
     width: 100%;
+}
+
+#tribute-info {
+   padding: 16rem;
+   font-size: 2rem;
+   color: #696969;
+}
+
+.tribute-info-span{
+    text-align: center;
+    padding: 6rem;
+    margin: 6rem;
+}
+
+#tribute-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#img-caption {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
 }
